@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-23T09:43:43.228Z",
+  "project": "xcheihbhpljumvmqcwjf",
+  "checks": [
+    "Two separate anonymous sessions created",
+    "Read 3 scenarios and 9 public choice labels",
+    "Reading correctness/feedback directly is denied",
+    "RPC records correct points; repeated submission returns original attempt",
+    "RLS hides another user’s attempt, including explicit user_id filtering",
+    "Direct INSERT into attempts is denied",
+    "Invalid choice is rejected"
+  ],
+  "status": "passed",
+  "testAccountsCreated": 2,
+  "testAttemptsCreated": 1
+}

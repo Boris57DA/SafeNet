@@ -1,0 +1,26 @@
+table_name,column_name,data_type,is_nullable,rls_enabled
+attempts,id,uuid,NO,true
+attempts,user_id,uuid,NO,true
+attempts,scenario_id,integer,NO,true
+attempts,choice_id,integer,NO,true
+attempts,is_correct,boolean,NO,true
+attempts,points_earned,integer,NO,true
+attempts,feedback,jsonb,NO,true
+attempts,attempted_at,timestamp with time zone,NO,true
+choices,id,integer,NO,true
+choices,scenario_id,integer,NO,true
+choices,position,smallint,NO,true
+choices,text,jsonb,NO,true
+choices,is_correct,boolean,NO,true
+choices,feedback,jsonb,NO,true
+scenarios,id,integer,NO,true
+scenarios,category,jsonb,NO,true
+scenarios,title,jsonb,NO,true
+scenarios,description,jsonb,NO,true
+scenarios,sender,text,NO,true
+scenarios,message,jsonb,NO,true
+scenarios,fake_link,text,NO,true
+scenarios,difficulty_level,smallint,NO,true
+scenarios,minutes,smallint,NO,true
+scenarios,icon,text,NO,true
+scenarios,created_at,timestamp with time zone,NO,true
